@@ -27,17 +27,17 @@ public static class Controls
 
 		Jump.Clear();
 		Jump.Add(0, Buttons.A, Buttons.Y);
-		Jump.Add(Keys.C);
+		Jump.Add(Keys.Space);
 
 		Dash.Clear();
 		Dash.Add(0, Buttons.X, Buttons.B);
-		Dash.Add(Keys.X);
+		Dash.Add(Keys.Z);
 
 		Climb.Clear();
 		Climb.Add(0, Buttons.LeftShoulder, Buttons.RightShoulder);
 		Climb.Add(0, Axes.RightTrigger, 1, .4f);
 		Climb.Add(0, Axes.LeftTrigger, 1, .4f);
-		Climb.Add(Keys.Z, Keys.V, Keys.LeftShift, Keys.RightShift);
+		Climb.Add(Keys.C, Keys.V, Keys.LeftShift, Keys.RightShift);
 		
 		Menu.Clear();
 		Menu.AddLeftJoystick(0, 0.50f, 0.50f);
